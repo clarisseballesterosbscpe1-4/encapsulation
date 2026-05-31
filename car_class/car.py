@@ -21,3 +21,17 @@ class Car:
 
     def get_make(self):
         return self.__make
+
+car = Car(2024, "Toyota")
+
+print("Accelerating...\n")
+
+for count in range(5):
+    car.accelerate()
+    print(f"Current Speed: {car.get_speed()} km/h")
+
+print("\nBraking...\n")
+
+for count in range(5):
+    car.brake()
+    print(f"Current Speed: {car.get_speed()} km/h")
