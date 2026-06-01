@@ -28,3 +28,18 @@ class Fan:
     def get_on(self):
         return self.on
 
+#fan 1
+fan_1 = Fan()
+fan_1.set_speed(Fan.fast)
+fan_1.set_radius(10)
+fan_1.set_color("Yellow")
+fan_1.set_on(True)
+#display fan 1
+print("Fan 1")
+print("------")
+print("Speed:", fan_1.get_speed())
+print("Radius:", fan_1.get_radius())
+print("Color:", fan_1.get_color())
+print("On:", fan_1.get_on())
+print("------")
+
