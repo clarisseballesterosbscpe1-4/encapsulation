@@ -1,8 +1,8 @@
 class Pet:
-    def __init__self(self):
-        self.name = ""
+    def __init__(self):
+        self.__name = ""
         self.__animal_type = ""
-        self.age = 0
+        self.__age = ""
 
     def set_name(self, name):
         self.__name = name
@@ -12,4 +12,12 @@ class Pet:
 
     def set_age(self, age):
         self.__age = age
-    
+
+    def get_name(self):
+        return self.__name
+
+    def get_animal_type(self):
+        return self.__animal_type
+
+    def get_age(self):
+        return self.__age
