@@ -4,28 +4,28 @@ class Fan:
     fast = 3
 
     def __init__(self, speed=slow, radius=5, color="Blue", on=False):
-        self.speed = speed
-        self.radius = radius
-        self.color = color
-        self.on = on
+        self.__speed = speed
+        self.__radius = radius
+        self.__color = color
+        self.__on = on
 
     def set_speed(self, speed):
-        self.speed = speed
+        self.__speed = speed
     def set_radius(self, radius):
-        self.radius = radius
+        self.__radius = radius
     def set_color(self, color):
-        self.color = color
+        self.__color = color
     def set_on(self, on):
-        self.on = on
+        self.__on = on
 
     def get_speed(self):
-        return self.speed
+        return self.__speed
     def get_radius(self):
-        return self.radius
+        return self.__radius
     def get_color(self):
-        return self.color
+        return self.__color
     def get_on(self):
-        return self.on
+        return self.__on
 
 #fan 1
 fan_1 = Fan()
