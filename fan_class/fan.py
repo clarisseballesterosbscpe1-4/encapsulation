@@ -41,4 +41,19 @@ print("Radius:", fan_1.get_radius())
 print("Color:", fan_1.get_color())
 print("On:", fan_1.get_on())
 print("------")
+#fan 2
+fan_2 = Fan()
+fan_2.set_speed(Fan.medium)
+fan_2.set_radius(5)
+fan_2.set_color("Yellow")
+fan_2.set_on(False)
+#display fan_2
+print("\nFan 2")
+print("------")
+print("Speed:", fan_2.get_speed())
+print("Radius:", fan_2.get_radius())
+print("Color:", fan_2.get_color())
+print("On:", fan_2.get_on())
+print("------")
+
 
