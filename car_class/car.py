@@ -22,6 +22,7 @@ class Car:
     def get_make(self):
         return self.__make
 
+<<<<<<< HEAD
 car = Car(2024, "Toyota")
 print("=" * 45)
 print("🚗 CAR SPEED SIMULATOR 🚗")
@@ -45,3 +46,5 @@ for count in range(5):
 print("\n🏁 Trip Complete!")
 print(f"Final Speed: {car.get_speed()} km/h")
 print("=" * 45)
+=======
+>>>>>>> c9b7911 (fixed oop)
